@@ -1,0 +1,16 @@
+// C++ code
+//
+#include <Servo.h>
+Servo s;
+int servo_pin = 2;
+int servo_position;
+int delay_t = 10;
+int p = A5;
+int p_val;
+
+
+
+
+void setup()
+{
+  pinMode(servo_pin,OUTPUT);
